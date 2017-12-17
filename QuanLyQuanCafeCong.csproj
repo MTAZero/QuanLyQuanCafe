@@ -92,6 +92,7 @@
     <Reference Include="System.Security" />
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -255,7 +256,9 @@
     <EmbeddedResource Include="Report\FrmRpHoaDon.resx">
       <DependentUpon>FrmRpHoaDon.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Report\HoaDon.rdlc" />
+    <EmbeddedResource Include="Report\HoaDon.rdlc">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="XRDesignRibbonControllerResources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>XRDesignRibbonControllerResources.Designer.cs</LastGenOutput>
